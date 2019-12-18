@@ -17,4 +17,12 @@ Depends on all your plugins, and provides a function to register them.
   s.source           = { :path => '.' }
   s.public_header_files = './Classes/**/*.h'
   s.dependency 'Flutter'
+  s.dependency 'alice'
+  s.dependency 'flutter_local_notifications'
+  s.dependency 'open_file'
+  s.dependency 'package_info'
+  s.dependency 'path_provider'
+  s.dependency 'permission_handler'
+  s.dependency 'sensors'
+  s.dependency 'share'
 end
