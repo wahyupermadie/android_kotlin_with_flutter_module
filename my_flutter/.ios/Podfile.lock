@@ -1,0 +1,78 @@
+PODS:
+  - alice (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_local_notifications (0.0.1):
+    - Flutter
+  - FlutterPluginRegistrant (0.0.1):
+    - alice
+    - Flutter
+    - flutter_local_notifications
+    - open_file
+    - package_info
+    - path_provider
+    - permission_handler
+    - sensors
+    - share
+  - open_file (0.0.1):
+    - Flutter
+  - package_info (0.0.1):
+    - Flutter
+  - path_provider (0.0.1):
+    - Flutter
+  - permission_handler (4.0.0):
+    - Flutter
+  - sensors (0.0.1):
+    - Flutter
+  - share (0.5.2):
+    - Flutter
+
+DEPENDENCIES:
+  - alice (from `Flutter/.symlinks/alice/ios`)
+  - Flutter (from `Flutter/engine`)
+  - flutter_local_notifications (from `Flutter/.symlinks/flutter_local_notifications/ios`)
+  - FlutterPluginRegistrant (from `Flutter/FlutterPluginRegistrant`)
+  - open_file (from `Flutter/.symlinks/open_file/ios`)
+  - package_info (from `Flutter/.symlinks/package_info/ios`)
+  - path_provider (from `Flutter/.symlinks/path_provider/ios`)
+  - permission_handler (from `Flutter/.symlinks/permission_handler/ios`)
+  - sensors (from `Flutter/.symlinks/sensors/ios`)
+  - share (from `Flutter/.symlinks/share/ios`)
+
+EXTERNAL SOURCES:
+  alice:
+    :path: Flutter/.symlinks/alice/ios
+  Flutter:
+    :path: Flutter/engine
+  flutter_local_notifications:
+    :path: Flutter/.symlinks/flutter_local_notifications/ios
+  FlutterPluginRegistrant:
+    :path: Flutter/FlutterPluginRegistrant
+  open_file:
+    :path: Flutter/.symlinks/open_file/ios
+  package_info:
+    :path: Flutter/.symlinks/package_info/ios
+  path_provider:
+    :path: Flutter/.symlinks/path_provider/ios
+  permission_handler:
+    :path: Flutter/.symlinks/permission_handler/ios
+  sensors:
+    :path: Flutter/.symlinks/sensors/ios
+  share:
+    :path: Flutter/.symlinks/share/ios
+
+SPEC CHECKSUMS:
+  alice: 0f49577498c6d1abee1d488e29d0a79a3e2860a1
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_local_notifications: 9e4738ce2471c5af910d961a6b7eadcf57c50186
+  FlutterPluginRegistrant: b6d6a73fa4235a4b38153a61381ad340547b19c9
+  open_file: 02eb5cb6b21264bd3a696876f5afbfb7ca4f4b7d
+  package_info: 48b108e75b8802c2d5e126f208ef540561c98aef
+  path_provider: fb74bd0465e96b594bb3b5088ee4a4e7bb1f2a9d
+  permission_handler: 0fb88b8a3c23e31e5de45b8f1bb8b7de28cf8941
+  sensors: 4bd31219c4bf9d7d4401b392a1701ee3adc1a296
+  share: bae0a282aab4483288913fc4dc0b935d4b491f2e
+
+PODFILE CHECKSUM: 13bc5c974be51e2cb6735930c94a4d5e7f784ace
+
+COCOAPODS: 1.8.4

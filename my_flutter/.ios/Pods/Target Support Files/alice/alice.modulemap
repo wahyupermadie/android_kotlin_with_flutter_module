@@ -1,0 +1,6 @@
+framework module alice {
+  umbrella header "alice-umbrella.h"
+
+  export *
+  module * { export * }
+}

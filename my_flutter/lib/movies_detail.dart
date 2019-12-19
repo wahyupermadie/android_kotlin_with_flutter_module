@@ -1,20 +1,27 @@
 import 'package:flutter/material.dart';
 import 'package:my_flutter/data/movies/movies.dart';
 
-void main() => runApp(new MaterialApp(home: MoviesDetail(),));
+void main() => runApp(new MyAppp());
 
+class MyAppp extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+      return MaterialApp(
+        home: MoviesDetail(),
+      );
+  }
+}
 class MoviesDetail extends StatelessWidget{
-  Results moviesResult;
-  MoviesDetail({this.moviesResult});
+  Results result;
+  MoviesDetail({this.result});
 
   @override
   Widget build(BuildContext context) {
-    
     return Scaffold(
       appBar: new AppBar(
-        title: new Text(moviesResult.originalTitle),
+        title: new Text(result.originalTitle),
       ),
-      body: _MoviesDetailBody(moviesResult: moviesResult,),
+      body: _MoviesDetailBody(moviesResult: result,),
     );
   }
 }

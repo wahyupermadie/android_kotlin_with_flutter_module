@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_flutter/route/routing_const.dart';
 import 'movies_detail.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:my_flutter/bloc/movies_bloc.dart';
@@ -87,9 +88,7 @@ class _MoviesList extends StatelessWidget {
   
   ListTile _listTile(BuildContext context, int index) {
     return ListTile(
-      onTap: () => Navigator.push(
-                      context, 
-                      MaterialPageRoute(builder: (context) => MoviesDetail(moviesResult: movies.results[index],)))
+      onTap: () => Navigator.pushNamed(context, DetailMovies, arguments: movies.results[index])
                   ,
       title: new Text(movies.results[index].originalTitle.toString()),
       subtitle: new Text(movies.results[index].overview.toString(),
